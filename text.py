@@ -20,4 +20,4 @@ def countword()->int:
                     
 
     return count
-print((countword()))
+(countword())
