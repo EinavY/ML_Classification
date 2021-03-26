@@ -9,6 +9,7 @@ def countword()->int:
     for line in txt:
         if i == 0:
             word = line.rstrip("\n")
+            word.lower()
             count =+1
             i =+1
         else:
